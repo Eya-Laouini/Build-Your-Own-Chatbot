@@ -1,0 +1,111 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you?",
+          "Is anyone there?",
+          "Hello"
+        ],
+        "responses": [
+          "Hey :-), how can I help you?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "GDSC General info",
+        "patterns": [
+          "what is GDSC?",
+          "tell me about GDSC",
+          "I need info about GDSC",
+          "Give info about GDSC"
+        ],
+        "responses": [
+          "Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies.",
+          "Students from all undergraduate or graduate programs"
+        ]
+      },
+
+       {
+        "tag": "More deatils",
+        "patterns": [
+          "Give me more info about GDSC",
+          "more details about GDSC",
+          "provide more details",   
+          "more"     
+        ],
+          "responses": [
+            "By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.",
+            "Students with an interest in growing as a developer are welcome.",
+            "For upcoming events and registration details, please check our official GDSC website or social media channels.",
+            "Check our website for more details on how to join."
+          ]
+
+      },
+
+      {
+        "tag": "EventsAndWorkshops",
+        "patterns": [
+          "What events does GDSC host?",
+          "Tell me about GDSC workshops",
+          "Upcoming GDSC events",
+          "How to participate in GDSC events?"
+        ],
+        "responses": [
+          "GDSC hosts a variety of events and workshops throughout the year, focusing on Google technologies and development practices.",
+          "These include coding workshops, tech talks, hackathons, and study jams.",
+          " Participation is open to all students who are interested in technology, regardless of their degree program.",
+          "Events are designed to help members learn new skills, collaborate on projects, and prepare for technology careers."
+        ]
+      },
+
+      {
+        "tag": "JoiningGDSC",
+        "patterns": [
+          "How can I join GDSC?",
+          "GDSC membership process",
+          "Sign up for GDSC",
+          "Joining GDSC"
+        ],
+        "responses": [
+          "Joining a Google Developer Student Club is straightforward.",
+          "Being part of GDSC is a fantastic way to enhance your coding skills.",
+           "Meeting like-minded peers, and working on projects that can have a real impact."
+        ]
+      },
+
+      {
+        "tag": "GDSCWebsite",
+        "patterns": [
+          "Where can I find GDSC website?",
+          "GDSC official website",
+          "GDSC website",
+          "GDSC official page"
+        ],
+        "responses": [
+          "You can find the official GDSC website at https://developers.google.com/community/dsc"
+        ]
+      }
+    ]
+  }
